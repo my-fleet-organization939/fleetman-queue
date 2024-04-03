@@ -2,7 +2,7 @@ FROM openjdk:8u131-jre
 
 MAINTAINER Richard Chesterwood "richard@inceptiontraining.co.uk"
 
-RUN wget --no-check-certificate -O activemq.tar.gz  https://www.apache.org/dyn/closer.cgi?filename=/activemq/6.1.0/apache-activemq-6.1.0-bin.tar.gz
+RUN wget --no-check-certificate -O apache-activemq-5.18.3-bin.zip  https://www.apache.org/dyn/closer.cgi?filename=/activemq/5.18.3/apache-activemq-5.18.3-bin.zip
 
 RUN tar -xzf activemq.tar.gz
 
