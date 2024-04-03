@@ -1,5 +1,7 @@
 FROM openjdk:8u131-jre
 
+USER root
+
 MAINTAINER Richard Chesterwood "richard@inceptiontraining.co.uk"
 
 RUN curl -s https://archive.apache.org/dist/activemq/5.14.3/apache-activemq-5.14.3-bin.tar.gz | tar -xvz -C /opt
